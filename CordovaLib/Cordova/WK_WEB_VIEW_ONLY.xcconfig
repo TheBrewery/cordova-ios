@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  CordovaLib
+//
+//  Created by xs19on on 20/03/2020.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+WK_WEB_VIEW_ONLY = 1
+EXCLUDED_SOURCE_FILE_NAMES = CDVUIWebViewDelegate*

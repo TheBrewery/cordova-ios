@@ -123,6 +123,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2B4CE924249E7300ADBEDB /* WK_WEB_VIEW_ONLY.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = WK_WEB_VIEW_ONLY.xcconfig; sourceTree = "<group>"; };
+		0D2B4CEA2424A08A00ADBEDB /* DEFAULT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DEFAULT.xcconfig; sourceTree = "<group>"; };
 		28BFF9121F355A4E00DDF01A /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLogger.h; sourceTree = "<group>"; };
 		28BFF9131F355A4E00DDF01A /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLogger.m; sourceTree = "<group>"; };
 		30193A4E1AE6350A0069A75F /* CDVUIWebViewNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVUIWebViewNavigationDelegate.m; sourceTree = "<group>"; };
@@ -357,6 +359,8 @@
 			children = (
 				C0C01EB41E3911D50056E6CB /* Cordova.h */,
 				C0C01EB51E3911D50056E6CB /* Info.plist */,
+				0D2B4CE924249E7300ADBEDB /* WK_WEB_VIEW_ONLY.xcconfig */,
+				0D2B4CEA2424A08A00ADBEDB /* DEFAULT.xcconfig */,
 			);
 			path = Cordova;
 			sourceTree = "<group>";
@@ -600,6 +604,7 @@
 		};
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2B4CE924249E7300ADBEDB /* WK_WEB_VIEW_ONLY.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -660,12 +665,12 @@
 				PRODUCT_NAME = Cordova;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WK_WEB_VIEW_ONLY = 0;
 			};
 			name = Debug;
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2B4CE924249E7300ADBEDB /* WK_WEB_VIEW_ONLY.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -723,7 +728,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
-				WK_WEB_VIEW_ONLY = 0;
 			};
 			name = Release;
 		};
